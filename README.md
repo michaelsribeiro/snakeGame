@@ -16,6 +16,7 @@
 </div> 
 
 <div align="center">
+  <br/>
   <img src="./images/preview.gif" height="300px"/>
 </div>
 
