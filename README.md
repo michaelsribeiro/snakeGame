@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/logo.png" height="100px" alt="Jogo da Cobrinha"/>
+  <img src="./images/logo.png" height="250px" alt="Jogo da Cobrinha"/>
 </div>
 
 <div align="center">
