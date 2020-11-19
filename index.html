@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>The Snake Game</title>
+    
+    <!-- FONTS GOOGLE -->
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- SCRIPTS -->
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <h2>The Snake Game</h2>
+    <div class="score">
+        <p>Pontuação: <span id="score">0</span></p>
+        <p>Recorde: <span id="highscore"></span></p>
+    </div>
+    <div class="container">
+        <div class="button-start">
+            <button type="button" id="startBtn">Start Game</button>
+        </div>
+        <canvas id="snake" width="512" height="512"></canvas>
+        <div class="button-reload">
+            <a href="javascript:location.reload(true)"><button type="button" id="reloadBtn">Reload Game</button></a>
+        </div>
+    </div>
+</body>
+</html>

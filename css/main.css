@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    
+    background-color:#131c25;
+    font-family: 'Modak', cursive, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #f2bb13;
+    margin-top: 20px;
+}
+
+.score{
+    max-width: 512px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.score p {
+    color: #f2bb13;
+    font-size: 30px;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+#snake{
+    border: 4px solid #f2bb13;
+    border-radius: 5px;
+    box-shadow: 5px 20px #131c25;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    color: #f2bb13;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    color: #f2bb13;
+}
+
+#startBtn{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color: transparent;
+    color: #596c81;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-transform: uppercase;
+
+    border-radius: 50%;
+    border: 4px solid #596c81;
+    transition: .3s;
+    outline: none;
+}
+
+#startBtn button{
+    border: none;
+}
+
+#startBtn:hover{
+    background-color: #252e38;
+    color: #f2bb13;
+    border: 4px solid #f2bb13;
+}
+
+#reloadBtn{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color: transparent;
+    color: #596c81;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-transform: uppercase;
+
+    border-radius: 50%;
+    border: 4px solid #596c81;
+    transition: .3s;
+    outline: none;
+}
+
+#reloadBtn button{
+    
+}
+
+#reloadBtn:hover{
+    background-color: #252e38;
+    color: #f2bb13;
+    border: 4px solid #f2bb13;
+}
