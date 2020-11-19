@@ -16,7 +16,7 @@
 </div> 
 
 <div align="center">
-  <img src="./images/preview.gif" height="400px"/>
+  <img src="./images/preview.gif" height="300px"/>
 </div>
 
 ## Recursos
