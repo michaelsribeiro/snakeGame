@@ -18,10 +18,11 @@
 <div align="center">
   <img src="./images/preview.gif" height="300px"/>
 </div>
-<div align="center">
+
   <br/>
+
   Para acessar o projeto clique [aqui](https://michaelsribeiro.github.io/snakeGame).
-</div>
+
 
 ## Recursos
 
